@@ -1,0 +1,8 @@
+lxml
+escher
+tqdm
+matplotlib
+bokeh
+cobra
+colorama
+jupyter_contrib_nbextensions
