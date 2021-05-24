@@ -104,7 +104,7 @@ def plot_loop_subplot(x, b_params, in_color=False, savein=None):
     x: Array
     in_color: False if in black, True if color gradient (requires pip install colour)
     """
-    hfont = {'fontname':'Georgia', 'size':20}
+    hfont = {'size':20}
     title = '2D Brownian Motion'
     n = ceil(np.sqrt(b_params['n_loops']))
     fig, axs = plt.subplots(nrows=n, ncols=n, figsize=(25,25))
